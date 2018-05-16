@@ -1,0 +1,11 @@
+﻿<Window x:Class="MonsterScaler_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="labelFilePicker" Content="Select database file:&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Height="39" Width="121"/>
+        <Button x:Name="browseButton" Content="Browse..." HorizontalAlignment="Left" Height="25" Margin="405,65,0,0" VerticalAlignment="Top" Width="79" Click="browseButton_Click"/>
+        <TextBox x:Name="fileNameTextBox" HorizontalAlignment="Left" Height="25" Margin="136,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+
+    </Grid>
+</Window>
