@@ -6,6 +6,9 @@
         <Label x:Name="labelFilePicker" Content="Select database file:&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Height="39" Width="121"/>
         <Button x:Name="browseButton" Content="Browse..." HorizontalAlignment="Left" Height="25" Margin="405,65,0,0" VerticalAlignment="Top" Width="79" Click="browseButton_Click"/>
         <TextBox x:Name="fileNameTextBox" HorizontalAlignment="Left" Height="25" Margin="136,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+        <Button x:Name="backButton" Content="&lt;&lt; Back" HorizontalAlignment="Left" Margin="56,268,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="nextButton" Content="Next &gt;&gt;" HorizontalAlignment="Left" Margin="157,268,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Left" Margin="409,268,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>

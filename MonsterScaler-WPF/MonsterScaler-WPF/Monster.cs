@@ -10,11 +10,15 @@ namespace MonsterScaler_WPF
     {
         //Source page: https://raw.githubusercontent.com/BTMorton/dnd-5e-srd/master/json/11%20monsters.json
         
-        string name;
+        public string name;
+        string size;
+        string monsterType;
+        string alignment;
         int armorClass;
         int hitPoints;
-        int hitPointDice;
-        int speed;
+        int hitPointDiceN;
+        int hitPointDiceType;
+        string speed;
 
         int strScore;
         string strMod;
@@ -36,7 +40,10 @@ namespace MonsterScaler_WPF
         string wisSavingThrowMod;
         string chaSavingThrowMod;
 
-        string d
+        Monster test = new Monster();
+        
+
+        
 
     }
 }

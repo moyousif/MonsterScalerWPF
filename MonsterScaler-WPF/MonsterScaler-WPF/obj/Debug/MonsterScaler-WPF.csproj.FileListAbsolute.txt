@@ -1,1 +1,2 @@
 C:\Users\MusaabOYousif\Projects\MonsterScaler-WPF\MonsterScaler-WPF\bin\Debug\MonsterScaler-WPF.exe.config
+C:\Users\MusaabOYousif\Projects\MonsterScalerWPF\MonsterScaler-WPF\MonsterScaler-WPF\bin\Debug\MonsterScaler-WPF.exe.config

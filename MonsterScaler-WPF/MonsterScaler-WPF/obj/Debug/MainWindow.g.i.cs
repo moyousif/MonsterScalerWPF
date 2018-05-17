@@ -63,6 +63,30 @@ namespace MonsterScaler_WPF {
         #line default
         #line hidden
         
+        
+        #line 9 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button backButton;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 10 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button nextButton;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 11 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button exitButton;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -107,6 +131,15 @@ namespace MonsterScaler_WPF {
             return;
             case 3:
             this.fileNameTextBox = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 4:
+            this.backButton = ((System.Windows.Controls.Button)(target));
+            return;
+            case 5:
+            this.nextButton = ((System.Windows.Controls.Button)(target));
+            return;
+            case 6:
+            this.exitButton = ((System.Windows.Controls.Button)(target));
             return;
             }
             this._contentLoaded = true;

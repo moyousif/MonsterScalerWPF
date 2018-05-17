@@ -10,10 +10,12 @@ namespace MonsterScaler_WPF
     class JsonProcessor
     {
         JsonReader reader;
+        JsonSerializer se;
 
         public void ReadJSONFile (string filename)
         {
-            
+            reader.Read();
+            se.Deserialize(reader);
         }
     }
 }

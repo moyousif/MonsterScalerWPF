@@ -37,7 +37,12 @@ namespace MonsterScaler_WPF
             string filename = dialog.FileName;
             fileNameTextBox.Text = filename;
 
-            JsonRead(filename);
+            
+        }
+
+        private void exitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }
